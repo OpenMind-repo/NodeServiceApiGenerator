@@ -1,3 +1,3 @@
-#Node Rest Api Generator Yeoman
+# Node Rest Api Generator Yeoman
 
-##About this generator
+## About this generator
