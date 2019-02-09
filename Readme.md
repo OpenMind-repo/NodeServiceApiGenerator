@@ -7,13 +7,16 @@ First, install [Yeoman](http://yeoman.io) and generator-node-service-api-generat
 
 ```bash
 npm install -g yo
-npm install -g generator-node-service-api-generator
 ```
+and then clone this repo 
 
 Then generate your new project:
 
+create new project folder
+in that folder
+
 ```bash
-yo node-service-api-generator
+yo {<path to this starter clone>/generators/index.js}
 ```
 
 ## Getting To Know Yeoman
@@ -26,13 +29,3 @@ yo node-service-api-generator
 ## License
 
 MIT © [Gerald Halomoan Samosir](https://github.com/geraldsamosir)
-
-
-[npm-image]: https://badge.fury.io/js/generator-node-service-api-generator.svg
-[npm-url]: https://npmjs.org/package/generator-node-service-api-generator
-[travis-image]: https://travis-ci.org/openmind/generator-node-service-api-generator.svg?branch=master
-[travis-url]: https://travis-ci.org/openmind/generator-node-service-api-generator
-[daviddm-image]: https://david-dm.org/openmind/generator-node-service-api-generator.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/openmind/generator-node-service-api-generator
-[coveralls-image]: https://coveralls.io/repos/openmind/generator-node-service-api-generator/badge.svg
-[coveralls-url]: https://coveralls.io/r/openmind/generator-node-service-api-generator
