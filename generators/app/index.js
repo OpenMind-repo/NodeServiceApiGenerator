@@ -112,6 +112,7 @@ module.exports = class MainGenerator extends Generator {
     copyTpl(tPath('controllers/sample.js'), dPath('controllers/sample.js'), props);
     copyTpl(tPath('controllers/docs/index.js'), dPath('controllers/docs/index.js'), props);
     copyTpl(tPath('configs/readme.md'), dPath('configs/readme.md'), props);
+    copyTpl(tPath('configs/codes.js'), dPath('configs/codes.js'), props);
     copyTpl(tPath('libs/readme.md'), dPath('libs/readme.md'), props);
     // database handle
     if (props.databaseSelect === 'Mysql') {
